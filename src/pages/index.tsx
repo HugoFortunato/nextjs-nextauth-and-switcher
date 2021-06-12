@@ -42,17 +42,6 @@ const Home = ({ darkMode, setTheme }: IProps) => {
                     offColor={shade(0.15, colors.secundary)}
                     onColor={colors.primary}
                 />
-                <Switch
-                    onChange={setTheme}
-                    checked={darkMode}
-                    checkedIcon={false}
-                    uncheckedIcon={true}
-                    height={10}
-                    width={40}
-                    handleDiameter={20}
-                    offColor={shade(0.15, colors.secundary)}
-                    onColor={colors.primary}
-                />
             </div>
             <div style={{ position: 'absolute' }} className='max-w-md w-full space-y-8'>
                 <motion.div
